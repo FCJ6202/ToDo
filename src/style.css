@@ -1,0 +1,90 @@
+.todo-container {
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-stats {
+    font-size: 14px;
+  }
+  
+  .todo-heading {
+    flex: 1;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(13, 253, 250, 0.396);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    color: #0000ff5e;
+  }
+  
+  .todo-heading1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .todo-content {
+    flex: 3;
+  }
+  
+  .add-task {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .add-task input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .add-task button {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+    max-height: 120px; /* Set a maximum height for the task list */
+    overflow-y: auto; /* Add a scrollbar when the list exceeds the maximum height */
+  }
+  
+  .task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  
+  .task-list label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-list input {
+    margin-right: 8px;
+  }
+  
+  .task-list .completed {
+    text-decoration: line-through;
+    color: #9999a3;
+  }
+  
+  .task-list .not-completed {
+    font-weight: normal;
+  }
